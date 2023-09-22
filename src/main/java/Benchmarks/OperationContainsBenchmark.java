@@ -14,7 +14,7 @@ import java.util.concurrent.TimeUnit;
 @Warmup(iterations = 5)
 @OutputTimeUnit(TimeUnit.MILLISECONDS)
 @State(Scope.Benchmark)
-public class OperationGetBenchmark {
+public class OperationContainsBenchmark {
     @Param({"10000"})
     private int TOTAL_ITERATIONS;
     @Param({"5000"})

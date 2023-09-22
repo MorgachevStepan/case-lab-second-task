@@ -1,11 +1,17 @@
-add()
+add() - В случае списков добавлялось в начало
 ArrayList 0,424 ms/op
 HashSet 7,357 ms/op
 LinkedList 0,551 ms/op
 TreeSet 8,228 ms/op
 
-contains()
+contains() - Проверялся элемент из середины
 ArrayList 27,661 ms/op
 HashSet 0,030 ms/op
 LinkedList 85,321 ms/op
 TreeSet 0,195 ms/op
+
+remove() - В случае списков удалялось с конца
+ArrayList 0,480 ns/op
+HashSet 0,481 ns/op
+LinkedList 0,486 ns/op
+TreeSet 0,493 ns/op

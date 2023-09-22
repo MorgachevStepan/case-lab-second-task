@@ -12,7 +12,7 @@ import org.openjdk.jmh.runner.options.OptionsBuilder;
 public class MyBenchmark {
     public static void main(String[] args) throws RunnerException {
         Options options = new OptionsBuilder()
-                .include(OperationGetBenchmark.class.getSimpleName())
+                .include(OperationRemoveBenchmark.class.getSimpleName())
                 .forks(1)
                 .build();
 
