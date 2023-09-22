@@ -1,0 +1,11 @@
+add()
+ArrayList 0,424 ms/op
+HashSet 7,357 ms/op
+LinkedList 0,551 ms/op
+TreeSet 8,228 ms/op
+
+contains()
+ArrayList 27,661 ms/op
+HashSet 0,030 ms/op
+LinkedList 85,321 ms/op
+TreeSet 0,195 ms/op
